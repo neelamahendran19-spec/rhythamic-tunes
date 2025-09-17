@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1DB954;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#songList {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.song {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
